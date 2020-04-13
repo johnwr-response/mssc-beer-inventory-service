@@ -68,7 +68,7 @@ public class AllocationServiceImpl implements AllocationService {
     }
 
     @Override
-    public void deallocateOrder(BeerOrderDto beerOrderDto) {
+    public void deAllocateOrder(BeerOrderDto beerOrderDto) {
         beerOrderDto.getBeerOrderLines().forEach(beerOrderLineDto -> {
             BeerInventory beerInventory = BeerInventory.builder()
                     .beerId(beerOrderLineDto.getBeerId())
