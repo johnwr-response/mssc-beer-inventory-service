@@ -141,3 +141,5 @@ Desktop.ini
 /.idea/
 
 /target/
+/src/main/docker/ca-certificate.crt
+/src/main/docker/truststore
